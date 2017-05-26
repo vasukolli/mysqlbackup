@@ -4,7 +4,7 @@ Tool for taking mysql database dumps.
 
 # usage
 
-mysqlbackup --cnf <config file> --todir <directory>
+mysqlbackup --cnf /mysq.cnf --todir /srv/databasebackups
 
 Modify daily,weekly,yearly parameters for backup retention periods.
 
